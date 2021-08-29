@@ -1,0 +1,199 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+}
+
+#head{
+    text-align: center;
+    display: block;
+    width: 100%;
+   
+}
+#head i{
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+#head i nav{
+display: none;
+background-color: rgba(0, 0, 0, 0.3);
+padding: 30px;
+width: 100%;
+}
+#head i:hover nav{
+    display: block;
+
+}
+#head i nav ul li{
+    list-style-type: none;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#head i nav ul li a{
+text-decoration: none;
+color: white;
+
+}
+
+#bio{
+    text-align: center;
+}
+#bio1 img{
+    max-width:400px ;
+    height: auto;
+    border-radius: 50%;
+}
+#bio1 section i{
+    font-size: 2.5em;
+    padding: 15px;
+}
+#collab{
+    display: flex;
+    padding: 30px;
+    margin-top: 70px;
+}
+#collab1{
+    width: 50%;
+}
+#co1{
+    font-size: 2.25rem;
+    color: #f7d7c8 !important;
+    font-family: Merriweather, serif !important;
+}
+#co2{
+    font-size: 1.125rem;
+    font-family: Roboto,sans-serif;
+}
+#collab2{
+    width: 50%;
+    
+}
+#coa{
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: Ubuntu, sans-serif !important;
+    color: #f7d7c8 !important;
+    
+}
+.ty{
+ font-size: 2rem;
+}
+.ty a{
+    text-decoration: none;
+    color: #f7d7c8;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#portfolio{
+    text-align: center;
+    padding: 30px 20px 0 20px;
+}
+#portfolio p{
+    font-size: 2.25em;
+    color: #f7d7c8;
+}
+#portfolio i {
+    font-size: 3.5em;
+}
+#images{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+
+}
+.imgsize{
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.imgsize img{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+.button{
+    background-color: black;
+    font-size: 1.25em;
+    color: white;
+    outline: none;
+    border-color: white;
+    padding: 20px;
+    width: 220px;
+    margin-top: 20px;
+}
+.button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+#bring{
+    padding: 30px;
+    display: flex;
+    
+}
+#br1 {
+    font-family: Ubuntu, sans-serif !important;
+    color: #f7d7c8 !important;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px;
+}
+#br2{
+    padding: 10px;
+}
+
+
+@media screen and (max-width:400px) {
+    #bio1 img{
+        width: 100%;
+    }
+    #collab{
+        display: block;
+        padding: 1px;
+    }
+    #collab1, #collab2{
+        width: 100%;
+
+    }
+    #collab1{
+        padding-bottom: 20px;
+    }
+    #portfolio{
+        display: block;
+    }
+    .imgsize{
+        width: 100%;
+    }
+    #bring{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:900px) {
+    #ert{
+        padding: 0 200px 0 400px;
+    }
+}
+@media screen and (min-width:700px) {
+    #ert{
+        padding: 0 200px 0 200px;
+    }
+}
+@media screen and (min-width:500px) {
+    #ert{
+        padding: 0 100px 0 100px;
+    }
+}
+
+
